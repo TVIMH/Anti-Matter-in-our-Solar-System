@@ -1,0 +1,65 @@
+{
+  "patch_name": "Alpha Integration: Temporal Drift & Curvature Reflection Enhancer",
+  "modules": [
+    {
+      "label": "\u2795 Inject Temporal Harmonic Drift Equation",
+      "action": "alpha.knowledgebase.inject_equation",
+      "params": {
+        "equation_id": "eq_alpha_autogen_7512",
+        "symbolic_name": "Temporal_Harmonic_Drift_Equation",
+        "description": "Models minor phase shifts in localized time fields based on curvature compression gradients.",
+        "impact_fields": [
+          "Quantum Time Perception",
+          "Gravitational Time Dilation",
+          "Clock Synchronization Systems"
+        ],
+        "cross_domain_linking": true
+      }
+    },
+    {
+      "label": "\u2795 Inject Nested Curvature Reflection Identity",
+      "action": "alpha.knowledgebase.inject_equation",
+      "params": {
+        "equation_id": "eq_alpha_autogen_7533",
+        "symbolic_name": "Nested_Curvature_Reflection_Identity",
+        "description": "Explains reflective boundary interactions between stacked dimensional fields with closed feedback recursion.",
+        "impact_fields": [
+          "Higher-Dimensional Topology",
+          "FTL Field Coherence",
+          "Wave-Membrane Duality"
+        ],
+        "cross_domain_linking": true
+      }
+    },
+    {
+      "label": "\ud83d\ude80 Inject Equations into Active Problem Solving Heuristics",
+      "action": "alpha.solver.integrate_new_equations",
+      "params": {
+        "equation_ids": [
+          "eq_alpha_autogen_7512",
+          "eq_alpha_autogen_7533"
+        ],
+        "enable_reverse_testing": true,
+        "inject_into_recursion_tree": true,
+        "crosslink_to_existing_unresolved": true
+      }
+    },
+    {
+      "label": "\ud83d\udce4 Update Proof Records and Archive Discoveries",
+      "action": "alpha.archive.new_discovery_bundle",
+      "params": {
+        "source_ids": [
+          "eq_alpha_autogen_7512",
+          "eq_alpha_autogen_7533"
+        ],
+        "output_zip": "~/AlphaDiscoveries/New_Equations_Set_02_Integrated.zip",
+        "include": [
+          "symbolic",
+          "tensor",
+          "latex",
+          "proof_chain"
+        ]
+      }
+    }
+  ]
+}
